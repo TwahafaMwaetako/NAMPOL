@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMPOL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="logo.png" alt="Namibia Police Force" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pages/aboutus.html">About Us</a></li>
+                <li><a href="Pages/opendata.html">Open Data</a></li>
+                <li><a href="Pages/applicationstatus.html">Application Status</a></li>
+                <li><a href="Pages/help.html">Help</a></li>
+            </ul>
+        </div>
+    </header>
+
+   
+
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Namibia Police Services</h1>
+            <p>Dedicated to your safety and security.</p>
+        </div>
+    </section>
+
+    <section id="aboutus" class="content-section">
+        <h2>About Us</h2>
+        <p>The Namibian Police Force is committed to ensuring security, safety, and law enforcement in Namibia.</p>
+        <a href="Pages/aboutus.html" class="btn">Learn More</a>
+    </section>
+
+    <section id="opendata" class="content-section">
+        <h2>Open Data</h2>
+        <p>Access publicly available data from Namibia Police for transparency and informed decision-making.</p>
+        <a href="Pages/opendata.html" class="btn">Explore Open Data</a>
+    </section>
+
+    <section id="applicationstatus" class="content-section">
+        <h2>Application Status</h2>
+        <p>Check the status of your application related to police services.</p>
+        <a href="Pages/applicationstatus.html" class="btn">Check Application Status</a>
+    </section>
+
+    <section id="help" class="content-section">
+        <h2>Help</h2>
+        <p>If you need assistance, contact Namibia Police for support.</p>
+        <a href="Pages/help.html" class="btn">Get Help</a>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="icons/business-report.png" alt="Reporting Services Icon">
+                <p>Reporting Services</p>
+                <a href="Pages/reportingservices.html" class="btn">Apply</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/traffic-jam.png" alt="Traffic Services Icon">
+                <p>Traffic Services</p>
+                <a href="Pages/trafficservices.html" class="btn">Apply</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/verified-account.png" alt="Permit Services Icon">
+                <p>Permit Services</p>
+                <a href="Pages/permitservices.html" class="btn">Apply</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/certificate.png" alt="Certificate Services Icon">
+                <p>Certificate Services</p>
+                <a href="Pages/certificateservices.html" class="btn">Apply</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/s.png" alt="Community Services Icon">
+                <p>Community Services</p>
+                <a href="Pages/communityservices.html" class="btn">Apply</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/heritage.png" alt="Heritage Services Icon">
+                <p>Heritage Services</p>
+                <a href="Pages/heritageservices.html" class="btn">Apply</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Namibian Police Force. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Optional: Add smooth scrolling with JavaScript if you want more control
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
